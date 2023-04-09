@@ -1,37 +1,38 @@
-const eway = "https://eway-server.vercel.app/api/";
+// const oceania = "localhost:3000";
 
-// auth routes
-export const login = eway + 'users/login';
-export const signup = eway + 'users/signup';
-export const getuser = eway + 'users/getuser';
-export const updateuser = eway + 'users/updateuser/'; // user id required
 
-// Search route
-export const searchKeyword = eway + 'search/byuser/'; // keyword in param required
+// // // auth routes
+// // export const login = oceania + 'users/login';
+// // export const signup = oceania + 'users/signup';
+// // export const getuser = oceania + 'users/getuser';
+// // export const updateuser = oceania + 'users/updateuser/'; // user id required
 
-// Contact us route
-export const contactUs = eway + 'contact/sendmessage';
+// // // Search route
+// // export const searchKeyword = oceania + 'search/byuser/'; // keyword in param required
 
-// blog routes
-export const addblog = eway + 'blogs/addblog';
-export const getallblogs = eway + 'blogs/getallblogs';
-export const getblogbyid = eway + 'blogs/getblogbyid';
-export const updateblog = eway + 'blogs/updateblog/'; // blog id required
-export const deleteblog = eway + 'blogs/deleteblog/'; // blog id required
+// // // Contact us route
+// // export const contactUs = oceania + 'contact/sendmessage';
 
-// product routes
-export const addproduct = eway + 'products/addblog';
-export const getallproducts = eway + 'products/getallproducts';
-export const updateproduct = eway + 'products/updateproduct/'; // product id required
-export const deleteproduct = eway + 'products/deleteproduct/'; // product id required
+// // blog routes
+// export const addblog = oceania + 'blogs/addblog';
+// export const getallblogs = oceania + 'blogs/getallblogs';
+// export const getblogbyid = oceania + 'blogs/getblogbyid';
+// export const updateblog = oceania + 'blogs/updateblog/'; // blog id required
+// export const deleteblog = oceania + 'blogs/deleteblog/'; // blog id required
 
-// cart routes
-export const addcart = eway + 'carts/createcartproduct';
-export const updatecart = eway + 'carts/updatecartproduct/'; // user id required
-export const getcartbyid = eway + 'carts/getcartproduct/'; // user id required
-export const removeProduct = eway + 'carts/deleteproduct/'; // user id and product id required :uid/:productId
+// // product routes
+// export const addproduct = oceania + 'products/addblog';
+// export const getallproducts = oceania + 'products/getallproducts';
+// export const updateproduct = oceania + 'products/updateproduct/'; // product id required
+// export const deleteproduct = oceania + 'products/deleteproduct/'; // product id required
 
-// order routes
-export const placeorder = eway + 'userorder/placeorder'; // authentication required
-export const getorders = eway + 'userorder/getorders/'; // user id required in params + authentication required
-export const cancelorder = eway + 'userorder/cancelorder/'; // order id required in params + authentication required
+// // cart routes
+// export const addcart = oceania + 'carts/createcartproduct';
+// export const updatecart = oceania + 'carts/updatecartproduct/'; // user id required
+// export const getcartbyid = oceania + 'carts/getcartproduct/'; // user id required
+// export const removeProduct = oceania + 'carts/deleteproduct/'; // user id and product id required :uid/:productId
+
+// // order routes
+// export const placeorder = oceania + 'userorder/placeorder'; // authentication required
+// export const getorders = oceania + 'userorder/getorders/'; // user id required in params + authentication required
+// export const cancelorder = oceania + 'userorder/cancelorder/'; // order id required in params + authentication required

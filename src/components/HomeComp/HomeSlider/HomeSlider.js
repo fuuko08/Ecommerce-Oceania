@@ -3,8 +3,10 @@ import './HomeSlider.css'
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
-import { Link } from 'react-router-dom';
 import { EffectFade, Navigation, Autoplay } from "swiper";
+import banner1 from "../../../img/other/banner1.jpeg";
+import banner2 from "../../../img/other/banner2.jpeg";
+
 
 const HomeSlider = () => {
   return (
@@ -19,36 +21,28 @@ const HomeSlider = () => {
         className="mySwiper">
         <SwiperSlide>
           <div className='banner'>
-            <img className='bannerImg' src="https://res.cloudinary.com/inovatormatin/image/upload/v1653646901/eway/homeSlide/slider3_adqbhb.jpg" alt="banner1" />
+            <img className='bannerImg' src={banner2} alt="banner1" />
             <section className='offer rightSideOffer'>
-              <span>SUMMER 30</span>
+              <span>Modern Design 2023</span>
               <h1>NEW HOT <br />EVERYTHING</h1>
-              <p>CHECK OUT SUMMER <br /> COLLECTION FIRST COME TO GET <br /> THE BEST!</p>
-              <div>
-                <Link to='./blog'>
-                  <button className='readMore'>READ MORE</button>
-                </Link>
-                <Link to='./shop'>
-                  <button className='showMore'>SHOP NOW</button>
-                </Link>
+              <p>CHECK OUT 2023 <br /> MODERN HOME COLLECTION <br /> TO GET THE BEST!</p>
+              <div>               
+                  <button className='readMore'>READ MORE</button>               
+                  <button className='showMore'>SHOP NOW</button>              
               </div>
             </section>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className='banner'>
-            <img className='bannerImg' src="https://res.cloudinary.com/inovatormatin/image/upload/v1653646901/eway/homeSlide/slider4_gqz07j.jpg" alt="banner2" />
+            <img className='bannerImg' src={banner1} alt="banner2" />
             <section className='offer leftSideOffer'>
-              <span>SUMMER 30</span>
+              <span>Classic Design 2023</span>
               <h1>NEW HOT <br />EVERYTHING</h1>
-              <p>CHECK OUT SUMMER <br /> COLLECTION FIRST COME TO GET <br /> THE BEST!</p>
+              <p>CHECK OUT 2023 <br /> CLASSIC HOME COLLECTION <br /> TO GET THE BEST!</p>
               <div>
-                <Link to='./blog'>
                   <button className='readMore'>READ MORE</button>
-                </Link>
-                <Link to='./shop'>
                   <button className='showMore'>SHOP NOW</button>
-                </Link>
               </div>
             </section>
           </div>

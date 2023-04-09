@@ -3,11 +3,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;    
-    background-image: url('https://res.cloudinary.com/inovatormatin/image/upload/v1653646910/eway/banner/blog-title_mcvt8b.jpg');
+    background-image: url('https://d2culxnxbccemt.cloudfront.net/craft/content/uploads/2022/03/25041622/WOOD_Fundamentals_of_Furniture_Making_Vondriska_16x9_titlecard.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 300px;
+    height: 450px;
 }
 .blogTitle h2{
     font-size: 3rem;

@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import "./Contact.css";
-import { useSelector, useDispatch } from "react-redux";
+import { useSelector } from "react-redux";
 import { SpinLoader } from "../../components"
-import { sendMessageContact } from "../../actions/utilsAction";
+import map from "../../img/other/map.png";
 
 const Contact = () => {
   let userName = localStorage.getItem("userName");
@@ -13,7 +13,7 @@ const Contact = () => {
     subject: "",
     message: "",
   });
-  const dispatch = useDispatch();
+  
   const contactState = useSelector(state => state.sendMessage);
 
   // on input set values 
@@ -21,30 +21,6 @@ const Contact = () => {
     let obj = {
       ...userMessage,
       [e.target.name]: e.target.value
-    }
-    setUserMessage(obj)
-  };
-
-  // on form submit
-  const submitHandler = (e) => {
-    e.preventDefault();
-    if (userName !== null) {
-      let msg = {
-        ...userMessage,
-        name: userName,
-        email: userEmail
-      }
-      alert("up")
-      console.log(msg)
-      dispatch(sendMessageContact(msg));
-    } else {
-      alert("low")
-      dispatch(sendMessageContact(userMessage));
-    }
-    let obj = {
-      ...userMessage,
-      subject: "",
-      message: ""
     }
     setUserMessage(obj)
   };
@@ -60,7 +36,7 @@ const Contact = () => {
         <h2>Contact</h2>
       </div>
       <div className="contactContain">
-        <form onSubmit={(e) => submitHandler(e)} method='post'>
+        <form method='post'>
           <input
             type="text"
             value={userName === null ? userMessage.name : userName}
@@ -105,12 +81,13 @@ const Contact = () => {
             </button>
           }
         </form>
-        <iframe
+        <img
           title="title"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d799.3767466570656!2d-119.79190944149457!3d36.734400094707375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8094609fa2bf2f13%3A0xca2c81043383dae1!2sFamily%20Fashions!5e0!3m2!1sen!2sin!4v1653573489461!5m2!1sen!2sin"
+          src={map}
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
           className="map"
+          alt="map"
         />
       </div>
     </div>

@@ -24,13 +24,17 @@
 }
 .Cardtext h3{
     font-size: 1.3rem;
-    margin: 0 0 1rem 0;
+    margin: 1px;
     font-weight: 500;
+    padding: 2px;
+    background-color: var(--lightGreen2);
+    color: white;
 }
 .Cardtext button{
     background-color: transparent;
     font-size: .9rem;
     font-weight: 500;
-    padding: 0 0 .5rem 0;
-    border-bottom: solid black 1.2px;
+    padding: 2px;
+    border: solid black 2px;
+    color: white;
 }

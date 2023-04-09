@@ -3,11 +3,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;    
-    background-image: url('https://res.cloudinary.com/inovatormatin/image/upload/v1653646910/eway/banner/shop-title_lcffhw.jpg');
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/back_our/20190621/ourmid/pngtree-nordic-minimalist-furniture-banner-design-image_190039.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 200px;
+    height: 450px;
 }
 .aboutTitle h2{
     font-size: 3rem;
@@ -50,7 +50,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url("https://res.cloudinary.com/inovatormatin/image/upload/v1653646902/eway/other/about3_mhda5b.jpg");
+    background-image: url("https://www.thespruce.com/thmb/dvVW64YIAzrBhF_zOrK3AuzaAeI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/9CraftingNook-499f3378b698461cb206f172f76a9286.jpg");
     background-size: cover;
     background-position: center;
 }

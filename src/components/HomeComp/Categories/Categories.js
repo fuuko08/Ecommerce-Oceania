@@ -1,26 +1,26 @@
 import React from "react";
 import { useNavigate } from 'react-router-dom';
 import "./Categories.css";
+import bedroom from "../../../img/other/bedroom.webp";
+import kitchen from "../../../img/other/kitchen.avif";
+import living from "../../../img/other/living.jpeg";
 
 const Categories = () => {
   const navigate = useNavigate()
   const myData = [
     {
-      image:
-        "https://res.cloudinary.com/inovatormatin/image/upload/v1653646901/eway/category/category1_cyau86.jpg",
-      title: "Women Collection",
+      image: bedroom,
+      title: "Bedroom Collection",
       alt: "category1",
     },
     {
-      image:
-        "https://res.cloudinary.com/inovatormatin/image/upload/v1653646901/eway/category/category2_u3iqzo.jpg",
-      title: "Men Collection",
+      image: kitchen,
+      title: "Kitchen Collection",
       alt: "category2",
     },
     {
-      image:
-        "https://res.cloudinary.com/inovatormatin/image/upload/v1653646901/eway/category/category3_mu1u1m.jpg",
-      title: "Accessories",
+      image: living,
+      title: "Livingroom Collection",
       alt: "category3",
     },
   ];
@@ -37,8 +37,8 @@ const Categories = () => {
         <div className="Card" key={index} onClick={() => clickhandler(card.title)}>
           <img className="CardImg" src={card.image} alt={card.alt} />
           <div className="Cardtext">
-            <h3>{card.title}</h3>
-            <button>Shop Now</button>
+            <h3 >{card.title}</h3>
+            <button className="btn">Shop Now</button>
           </div>
         </div>
       ))}

@@ -12,18 +12,18 @@ const Banner = () => {
     return(
         <div className='bannerSection'>
             <div className='bsc' onClick={() => clickhandler('Men Collection')}>
-                <img className='bscImg' src="https://res.cloudinary.com/inovatormatin/image/upload/v1653646907/eway/banner/banner1_sh77zm.jpg" alt="banner1" />
+                <img className='bscImg' src="https://images.pexels.com/photos/1350789/pexels-photo-1350789.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="banner1"/>
                 <div className='bannerOptions'>
-                    <span>Sunglass</span>
-                    <h4>Men top Collection</h4>
+                    <span>Chair</span>
+                    <h4>Top Collection</h4>
                     <button>Shop Now</button>
                 </div>
             </div>
             <div className='bsc' onClick={() => clickhandler('Women Collection')}>
-                <img className='bscImg' src="https://res.cloudinary.com/inovatormatin/image/upload/v1653646908/eway/banner/banner2_tev0t8.jpg" alt="banner2" />
+                <img className='bscImg' src="https://www.godrejinterio.com/imagestore/B2C/56101543SD00017/56101543SD00017_A2_1440x810.jpg" alt="banner2"/>
                 <div className='bannerOptions'>
-                    <span>Jewellry</span>
-                    <h4>Women top Collection</h4>
+                    <span>Table</span>
+                    <h4>Top Collection</h4>
                     <button>Shop Now</button>
                 </div>
             </div>

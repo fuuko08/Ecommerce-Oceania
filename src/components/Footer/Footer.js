@@ -1,5 +1,5 @@
 import React from 'react'
-import { AiFillInstagram, AiFillLinkedin, AiFillGithub } from "react-icons/ai";
+import { AiFillLinkedin, AiFillGithub, AiFillHome } from "react-icons/ai";
 import { Link } from 'react-router-dom'
 import './Footer.css'
 
@@ -37,20 +37,20 @@ const Footer = () => {
             </Link>
           </li>
         </ul>
-        <span className='credits'>Designed by Manish for practice.</span>
+        <span className='credits'>An E-commerce Furniture Store built as job application for Website Specialist position at Oceania.</span>
         <ul className='socialHandels'>
           <li>
-            <a href="https://www.instagram.com/ig_matin" target="_blank" rel="noreferrer">
-              <AiFillInstagram />
+            <a href="https://fuuko08.github.io/React-Portfolio/" target="_blank" rel="noreferrer">
+              <AiFillHome />
             </a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/manish-kumar-09a114184" target="_blank" rel="noreferrer">
+            <a href="https://www.linkedin.com/in/selinatpsu/" target="_blank" rel="noreferrer">
               <AiFillLinkedin />
             </a>
           </li>
           <li>
-            <a href="https://github.com/inovatormatin" target="_blank" rel="noreferrer">
+            <a href="https://github.com/fuuko08" target="_blank" rel="noreferrer">
               <AiFillGithub />
             </a>
           </li>

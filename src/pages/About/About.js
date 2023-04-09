@@ -15,35 +15,23 @@ const About = () => {
         <section className='acrs'>
           <h3>Company Overview</h3>
           <p>
-            The Company first online retailer to globally distribute a wide
-            range of fashion, beauty and lifestyle products from Asia through
-            their website example.com. Every season brings customers the
-            latest trends along with thousands of items from brands across Asia.
-            example.com now represents the best platform for brands in Asia
-            to connect with customers worldwide.
+          Oceania was established in 2008 with a focus on e-commerce, green energy solutions, andadvanced materials.
+Our brands are sold internationally through brand websites and over 10 ecommerce platforms such as Amazon, Shopify, eBay, Walmart, HomeDepot, Wayfair, Houzz, etc. We have nearly 10 million users in more than 20 countries around the world.
           </p>
 
           <h3>Company Mission</h3>
           <p>
-            The company brings the latest fashion trends to customers worldwide.
-            Launched in July 2020, the example.com website leverages the success
-            of a proven e-commerce platform and technology to deliver customers
-            an exciting and unique destination for fashion, beauty, and lifestyle
-            products.
+          Our mission is to achieve product excellence, provide an effortless customer experience, and accelerate our global expansion. We strive to complete goals by methods that our competition cannot or are unwilling to do. We challenge the status quo and strive to build winning strategies that are efficient and sustainable.
           </p>
 
-          <h3>Company Vision</h3>
+          <h3>Data-Driven Management</h3>
           <p>
-            To provide customers with an exciting shopping experience, superior
-            service, and a fine selection of affordable, high-quality fashion,
-            beauty, and lifestyle products.
+          Our decisions, operations, and business strategies are driven by data with careful analysis. Self-developed PR, ERP, warehouse management, and other key systems bring higher efficiency and lean operation processes.
           </p>
 
-          <h3>Company Intro</h3>
+          <h3>Flat Organizational Structure</h3>
           <p>
-            To provide customers with an exciting shopping experience, superior
-            service, and a fine selection of affordable, high-quality fashion,
-            beauty, and lifestyle products.
+          The company brings together domestic and foreign professionals in various fields. The flat and compact organizational structure breaks down internal barriers and inspires our teams to innovate and challenge the status quo.
           </p>
           <img src="https://res.cloudinary.com/inovatormatin/image/upload/v1653646910/eway/other/about2_nsnt01.jpg" alt="about2img" />
         </section>
@@ -61,11 +49,7 @@ const About = () => {
 
           <h3>Mission 2030</h3>
           <p>
-            The company brings the latest fashion trends to customers worldwide.
-            Launched in July 2030, the example.com website leverages the success
-            of a proven e-commerce platform and technology to deliver customers
-            an exciting and unique destination for fashion, beauty, and lifestyle
-            products.
+          We formed our core competency around deep product research, especially on technical products. Our thorough research ability has brought us a competitive edge.
           </p>
           <p>
             offers express shipping on all orders. Shipments arrive within approximately

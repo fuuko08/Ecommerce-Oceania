@@ -1,20 +1,20 @@
 import React from 'react'
-import './Product.css'
+import './Product2.css'
 import { Link } from 'react-router-dom';
 
-const Product = () => {
+const Product2 = () => {
   
   return (
     <>
     <div className='productCard'>
       <Link to={`/shop`}>
         <div className='productImage'>
-          <img id='hideOnHover'src="https://re-mm-assets.s3.amazonaws.com/product_photo/48169/large_7.0-tables-36intable-42intall-tt.rwp36_1471510668.jpg" alt="product1" />
+          <img id='hideOnHover'src="https://www.realsimple.com/thmb/cGmby1TenVzY2TSmsZGHF4MxkyA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/RS-best-storage-furniture-fd09702a2c21450bb1b5a175016b207d.jpg" alt="product1" />
           <img src="https://previews.123rf.com/images/giamportone/giamportone1803/giamportone180300110/133407206-buy-now-button-with-hand-clicking-icon.jpg" alt="prdouct1b" />
         </div>
         <div className='productDetail'>
-          <h5>Table A</h5>
-          <p>$39.99</p>
+          <h5>Brand New Chair</h5>
+          <p>$79.99</p>
         </div>
       </Link>
     </div>
@@ -22,12 +22,12 @@ const Product = () => {
     <div className='productCard'>
       <Link to={`/shop`}>
         <div className='productImage'>
-          <img id='hideOnHover'src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYm3Hqq3X6Wkuk5rYnaQP6GYmcrKzBw1udyg&usqp=CAU" alt="product1" />
+          <img id='hideOnHover'src="https://hips.hearstapps.com/hmg-prod/images/45206375ac-010-b-1554481474.jpeg" alt="product1" />
           <img src="https://previews.123rf.com/images/giamportone/giamportone1803/giamportone180300110/133407206-buy-now-button-with-hand-clicking-icon.jpg" alt="prdouct1b" />
         </div>
         <div className='productDetail'>
-          <h5>Table B</h5>
-          <p>$70.00</p>
+          <h5>Brand New Drawer</h5>
+          <p>$172.00</p>
         </div>
       </Link>
     </div>
@@ -35,12 +35,12 @@ const Product = () => {
     <div className='productCard'>
       <Link to={`/shop`}>
         <div className='productImage'>
-          <img id='hideOnHover'src="https://media.istockphoto.com/id/181121628/photo/dining-table.jpg?s=612x612&w=0&k=20&c=EMpXmdc26G6IQ-7-zFNoMf-4oZTmn0qvjJfhG1VTpPw=" alt="product1" />
+          <img id='hideOnHover'src="https://media.architecturaldigest.com/photos/5f4d7b384ae6112506ca11f4/master/w_650,h_634,c_limit/prod17400286_E412777867_TQ.jpeg" alt="product1" />
           <img src="https://previews.123rf.com/images/giamportone/giamportone1803/giamportone180300110/133407206-buy-now-button-with-hand-clicking-icon.jpg" alt="prdouct1b" />
         </div>
         <div className='productDetail'>
-          <h5>Table C</h5>
-          <p>$25.00</p>
+          <h5>Super Good Chair</h5>
+          <p>$125.00</p>
         </div>
       </Link>
     </div>
@@ -48,16 +48,16 @@ const Product = () => {
     <div className='productCard'>
       <Link to={`/shop`}>
         <div className='productImage'>
-          <img id='hideOnHover'src="https://www.bludot.com/media/catalog/product/h/p/hp1-lrgtbl-bz_alt34_2.jpg?optimize=medium&fit=bounds&height=488&width=488&canvas=488:488" alt="product1" />
+          <img id='hideOnHover'src="https://www.mycreativedays.com/wp-content/uploads/2022/05/Repurposed-Hutch-Makeover-top-open.jpg" alt="product1" />
           <img src="https://previews.123rf.com/images/giamportone/giamportone1803/giamportone180300110/133407206-buy-now-button-with-hand-clicking-icon.jpg" alt="prdouct1b" />
         </div>
         <div className='productDetail'>
-          <h5>Table D</h5>
-          <p>$34.99</p>
+          <h5>Super Good Shelf</h5>
+          <p>$156.99</p>
         </div>
       </Link>
     </div>
     </>
   )
 }
-export default Product;
+export default Product2;

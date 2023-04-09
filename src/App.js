@@ -4,24 +4,14 @@ import {
   Home,
   Shop,
   Blog,
-  Blogpage,
-  Productpage,
-  MyCart,
-  Myorders,
-  PlaceOrder,
-  SearchPage,
-  Profile,
   About,
   Contact,
 } from "./pages";
 import { Navbar, Footer, Toast, UnderDev } from "./components";
-import { useDispatch } from "react-redux";
-import { getallProducts } from "./actions/productActions";
 import Cookies from 'universal-cookie'
 
 const App = () => {
   const cookies = new Cookies()
-  const dispatch = useDispatch();
   // Online state
   const [isOnline, setIsOnline] = useState(navigator.onLine);
   let tkn = cookies.get('tkn');
@@ -48,9 +38,6 @@ const App = () => {
     };
   }, [isOnline]); // eslint-disable-line
 
-  useEffect(() => {
-    dispatch(getallProducts());
-  }, []); // eslint-disable-line
   return (
     <>
       <div className="displayBody">
@@ -60,14 +47,7 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/shop" element={<Shop />} />
           <Route path="/blog" element={<Blog />} />
-          <Route path="/mycart" element={<MyCart />} />
-          <Route path="/myorders" element={<Myorders />} />
-          <Route path="/placeorder" element={<PlaceOrder />} />
-          <Route path="/myprofile" element={<Profile />} />
-          <Route exact path="/blog/:id" element={<Blogpage />} />
-          <Route exact path="/shop/:id" element={<Productpage />} />
           <Route path="/about" element={<About />} />
-          <Route path="/search/:keyword" element={<SearchPage />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />

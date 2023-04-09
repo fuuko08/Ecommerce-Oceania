@@ -3,11 +3,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;    
-    background-image: url('https://res.cloudinary.com/inovatormatin/image/upload/v1653646910/eway/banner/shop-title_lcffhw.jpg');
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/back_our/20190621/ourmid/pngtree-nordic-minimalist-furniture-banner-design-image_190039.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 200px;
+    height: 400px;
 }
 .contactTitle h2{
     font-size: 3rem;

@@ -1,26 +1,18 @@
 import React from 'react'
 import './Newproduct.css'
-import { Product, RingLoader } from '../../index'
-import { useSelector } from 'react-redux'
+import { Product2 } from '../../index'
 
 const Newproduct = () => {
-  const productState = useSelector(state => state.getallProducts);
-  const { products } = productState;
   return (
     <div className='newproduct'>
         <section className='npHeading'>
-            <span>Our Store</span>
-            <h3>New PRODUCTS</h3>
-            <p>Browse our New collection according the category top interesting products.</p>
+            <span>Welcome to Oceania</span>
+            <h3>NEW PRODUCTS</h3>
+            <p>Browse our latest collection and keep up with most trending design of 2023.</p>
         </section>
-        <section className='npgallery'>
-            {products !== null ?
-            products.slice(8, 12).map(((product, index) => 
-            <Product key={index} product={product}/>
-            )) 
-            : ''}
-        </section>
-        {products === null ? <RingLoader /> : ''}
+        <section className='npgallery'>            
+            <Product2 />            
+        </section>       
     </div>
   )
 }

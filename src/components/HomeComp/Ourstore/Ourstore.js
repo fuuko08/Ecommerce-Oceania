@@ -1,26 +1,19 @@
 import React from 'react'
 import './Ourstore.css'
-import { Product, RingLoader } from '../../index'
-import { useSelector } from 'react-redux'
+import { Product } from '../../index'
 
 const Ourstore = () => {
-  const productState = useSelector(state => state.getallProducts);
-  const { products } = productState;
   return (
     <div className='ourStore'>
         <section className='storeHeading'>
-            <span>Our Store</span>
-            <h3>TOP SELLING PRODUCTS</h3>
-            <p>You’ll definitely find that you are looking for. Browse our collection according the category top interesting products.</p>
+            <span>Welcome to Oceania</span>
+            <h3>CHECK OUT THE NEW DESIGNS</h3>
+            <p>Create the home space that you deserve. Browse our best selling collection according to the design that matches your style.</p>
         </section>
-        <section className='storegallery'>
-        {products !== null ?
-          products.slice(0, 8).map(((product, index) => 
-          <Product key={index} product={product}/>
-          )) 
-          : '' }
+        <section className='storegallery'>        
+          <Product />       
         </section>
-        {products === null ? <RingLoader /> : ''}
+       
     </div>
   )
 }

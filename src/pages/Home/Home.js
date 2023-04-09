@@ -11,6 +11,6 @@ const Home = () => {
       <Newproduct />
     </>
   )
-}
+}      
 
 export default Home;
