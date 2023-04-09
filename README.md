@@ -2,7 +2,7 @@
 
 ## Description
 
-This is an E-commerce Furniture Store webpage built with React.js in purpose of applying for Website Specialist position at Oceania International Inc.
+This is an E-commerce Furniture Store webpage built with React.js in purpose of pursuing the Website Specialist position at Oceania International Inc.
 
 Live deployed webpage: https://fuuko08.github.io/Ecommerce-Oceania/
 
