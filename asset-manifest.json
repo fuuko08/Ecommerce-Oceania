@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ecommerce-oceania/static/css/main.293ee2ec.css",
+    "main.js": "/ecommerce-oceania/static/js/main.52e0ea4c.js",
+    "static/js/787.1a555746.chunk.js": "/ecommerce-oceania/static/js/787.1a555746.chunk.js",
+    "static/media/map.png": "/ecommerce-oceania/static/media/map.ccfa3ffb1ababf0964c8.png",
+    "static/media/living.jpeg": "/ecommerce-oceania/static/media/living.30e1f6e3c204841cbb9b.jpeg",
+    "static/media/bedroom.webp": "/ecommerce-oceania/static/media/bedroom.b5c4061ee3258f005b26.webp",
+    "static/media/kitchen.avif": "/ecommerce-oceania/static/media/kitchen.c2af4c6412724994446f.avif",
+    "static/media/banner2.jpeg": "/ecommerce-oceania/static/media/banner2.eac631756b66e0e490fb.jpeg",
+    "static/media/banner1.jpeg": "/ecommerce-oceania/static/media/banner1.bd0936ad2f0d75c2aaba.jpeg",
+    "static/media/underConst.jpg": "/ecommerce-oceania/static/media/underConst.121a4a15996c755246fe.jpg",
+    "static/media/logo.png": "/ecommerce-oceania/static/media/logo.f157002bb488435a0188.png",
+    "index.html": "/ecommerce-oceania/index.html",
+    "main.293ee2ec.css.map": "/ecommerce-oceania/static/css/main.293ee2ec.css.map",
+    "main.52e0ea4c.js.map": "/ecommerce-oceania/static/js/main.52e0ea4c.js.map",
+    "787.1a555746.chunk.js.map": "/ecommerce-oceania/static/js/787.1a555746.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.293ee2ec.css",
+    "static/js/main.52e0ea4c.js"
+  ]
+}
