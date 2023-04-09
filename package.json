@@ -1,6 +1,7 @@
 {
-  "name": "oceania",
+  "name": "ecommerce-oceania",
   "version": "0.1.0",
+  "homepage": "https://fuuko08.github.io/Ecommerce-Oceania/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.6",
