@@ -11,9 +11,6 @@ export { default as  Product2 } from "./HomeComp/Product2/Product2";
 export { default as ShopItems } from "../components/Shop/ShopItems/ShopItems";
 export { default as Dropdown } from "../components/Shop/Dropdown/Dropdown";
 
-// Login export ...
-export { default as Login } from "./Login/Login";
-
 // Navbar exports ...
 export { default as Navbar } from "./Navbar/Navbar";
 

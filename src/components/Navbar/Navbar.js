@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 import logo from '../../img/logo/logo.png';
 import Searchbar from "./Searchbar";
 import { NavLink, Link } from "react-router-dom";
-import ProfileDroper from "./ProfileDroper";
 import {
+    AiOutlineUser,
     AiFillHome,
     AiOutlineShoppingCart,
   } from "react-icons/ai";
@@ -66,7 +66,7 @@ const Navbar = () => {
                             userform ? setUserform(false) : setUserform(true);
                         }
                         }}>
-                        <ProfileDroper />
+                        <AiOutlineUser />
                         </li>
                     </ul>
                 </div>
