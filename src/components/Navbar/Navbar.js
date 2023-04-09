@@ -37,7 +37,7 @@ const Navbar = () => {
     <>
       <nav className="navbar navbar-expand-lg fixed-top" id="mainNav">
             <div className="container">
-                <img className="navbar-brand" href="#page-top" src={logo} id="navLogo"/>
+                <img className="navbar-brand" href="#page-top" src={logo} id="navLogo" alt="logo"/>
                 <button className="navbar-toggler text-uppercase rounded" style={{backgroundColor: "var(--skinny)", color: "#007ea7"}} type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i className="fas fa-bars"></i>

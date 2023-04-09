@@ -33,10 +33,10 @@ Our brands are sold internationally through brand websites and over 10 ecommerce
           <p>
           The company brings together domestic and foreign professionals in various fields. The flat and compact organizational structure breaks down internal barriers and inspires our teams to innovate and challenge the status quo.
           </p>
-          <img src="https://res.cloudinary.com/inovatormatin/image/upload/v1653646910/eway/other/about2_nsnt01.jpg" alt="about2img" />
+          <img src="http://www.oceania-inc.com/assets/img/business/Solar-Energy.jpg" alt="about2img" />
         </section>
         <section className='acls'>
-          <img src="https://res.cloudinary.com/inovatormatin/image/upload/v1653646901/eway/other/about1_om5e4d.jpg" alt="about1img" />
+          <img src="http://www.oceania-inc.com/assets/img/business/Ecommerce.jpg" alt="about1img" />
           <h3>Company Profile</h3>
           <p>
             The Company first online retailer to globally distribute a wide
