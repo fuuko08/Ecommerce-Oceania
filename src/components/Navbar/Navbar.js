@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import logo from '../../img/logo/logo.png';
 import Searchbar from "./Searchbar";
 import { NavLink, Link } from "react-router-dom";
@@ -8,16 +8,11 @@ import {
     AiOutlineShoppingCart,
   } from "react-icons/ai";
 import './Navbar.css';
-import { useSelector } from "react-redux";
-import Cookies from 'universal-cookie'
+
  
-const Navbar = () => {
-    const cookies = new Cookies()
-  const userState = useSelector(state => state.userLogin);
-  const [userform, setUserform] = useState(false);
-  const [userdropdown, setUserdropdown] = useState(false);
+const Navbar = () => {  
   const menu = [
-    { url: '/', lName: `Home` },
+    { url: '/Ecommerce-Oceania', lName: `Home` },
     { url: '/shop', lName: 'Shop' },
     { url: '/blog', lName: 'Blog' },
     { url: '/about', lName: 'About us' },
@@ -26,13 +21,7 @@ const Navbar = () => {
   const activeLi = {
     color: "#61ce70",
   };
-  let tkn = cookies.get('tkn');
-
-  useEffect(() => {
-    if (tkn !== undefined) {
-      setUserform(false)
-    }
-  }, [userState]); // eslint-disable-line
+   
   return (
     <>
       <nav className="navbar navbar-expand-lg fixed-top" id="mainNav">
@@ -44,7 +33,6 @@ const Navbar = () => {
                 </button>
                 <div className="collapse navbar-collapse optionsBox" id="navbarResponsive">
                     <ul className="navbarOptions">
-                    {/* <li className="nav-item mx-0 mx-lg-1"> */}
                     {menu.map((item, index) =>
                         <li className="nav-item mx-0 mx-lg-1" key={index} >
                             <NavLink
@@ -58,16 +46,8 @@ const Navbar = () => {
                     </ul>
                     <ul className="extraOption">
                         <li><Searchbar /></li>
-                        <li><Link to={"/mycart"}><AiOutlineShoppingCart /></Link></li>
-                        <li onClick={() => {
-                        if (tkn !== undefined) {
-                            userdropdown ? setUserdropdown(false) : setUserdropdown(true);
-                        } else {
-                            userform ? setUserform(false) : setUserform(true);
-                        }
-                        }}>
-                        <AiOutlineUser />
-                        </li>
+                        <li><Link><AiOutlineShoppingCart /></Link></li>                   
+                        <AiOutlineUser />                     
                     </ul>
                 </div>
             </div>

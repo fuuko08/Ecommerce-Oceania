@@ -41,7 +41,7 @@ const Footer = () => {
         <ul className='socialHandels'>
           <li>
             <a href="https://fuuko08.github.io/React-Portfolio/" target="_blank" rel="noreferrer">
-              <AiFillHome />
+            Selina Su: <AiFillHome />
             </a>
           </li>
           <li>
