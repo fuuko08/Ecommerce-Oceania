@@ -14,6 +14,7 @@ const Footer = () => {
         <input name='subscribe' type="text" placeholder='Your email address' />
         <button>Subscribe</button>
       </label>
+      
       <section className='footerFoot'>
         <ul className='checkout'>
           <li>
@@ -37,7 +38,7 @@ const Footer = () => {
             </Link>
           </li>
         </ul>
-        <span className='credits'>An E-commerce Furniture Store built as job application for Website Specialist position at Oceania.</span>
+        <span className='credits'>Made as job application for Website Specialist position at Oceania.</span>
         <ul className='socialHandels'>
           <li>
             <a href="https://fuuko08.github.io/React-Portfolio/" target="_blank" rel="noreferrer">

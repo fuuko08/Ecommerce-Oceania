@@ -7,7 +7,7 @@ import {
   About,
   Contact,
 } from "./pages";
-import { Navbar, Footer, Toast, UnderDev } from "./components";
+import { Navbar, Footer, Toast } from "./components";
 import Cookies from 'universal-cookie'
 
 const App = () => {
@@ -52,7 +52,6 @@ const App = () => {
         </Routes>
         <Footer />
       </div>
-      <UnderDev />
     </>
   );
 };

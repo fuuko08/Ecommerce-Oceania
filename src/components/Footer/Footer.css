@@ -34,6 +34,7 @@
     padding: 1rem 3rem;
     margin: 0;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     background-color: var(--skinny2);
@@ -41,6 +42,9 @@
 .checkout li {
     margin-right: 10px;
     cursor: pointer;
+}
+.checkout li:hover {
+    color: var(--lightGreen2);
 }
 .socialHandels, .checkout{
     display: flex;

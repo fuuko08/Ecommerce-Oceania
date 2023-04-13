@@ -25,4 +25,3 @@ export { RingLoader, SpinLoader } from "./MyUtils/Loaders"
 
 // 404 ...
 export { default as Pagenotfound } from "./404/Pagenotfound";
-export { default as UnderDev } from "./404/UnderDev";
