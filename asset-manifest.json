@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Ecommerce-Oceania/static/css/main.aa9ebe07.css",
-    "main.js": "/Ecommerce-Oceania/static/js/main.537ae8d8.js",
+    "main.css": "/Ecommerce-Oceania/static/css/main.2da2dd70.css",
+    "main.js": "/Ecommerce-Oceania/static/js/main.af837cc9.js",
     "static/js/787.3148a24c.chunk.js": "/Ecommerce-Oceania/static/js/787.3148a24c.chunk.js",
     "static/media/map.png": "/Ecommerce-Oceania/static/media/map.ccfa3ffb1ababf0964c8.png",
     "static/media/living.jpeg": "/Ecommerce-Oceania/static/media/living.30e1f6e3c204841cbb9b.jpeg",
@@ -9,15 +9,14 @@
     "static/media/kitchen.avif": "/Ecommerce-Oceania/static/media/kitchen.c2af4c6412724994446f.avif",
     "static/media/banner2.jpeg": "/Ecommerce-Oceania/static/media/banner2.eac631756b66e0e490fb.jpeg",
     "static/media/banner1.jpeg": "/Ecommerce-Oceania/static/media/banner1.bd0936ad2f0d75c2aaba.jpeg",
-    "static/media/underConst.jpg": "/Ecommerce-Oceania/static/media/underConst.121a4a15996c755246fe.jpg",
     "static/media/logo.png": "/Ecommerce-Oceania/static/media/logo.f157002bb488435a0188.png",
     "index.html": "/Ecommerce-Oceania/index.html",
-    "main.aa9ebe07.css.map": "/Ecommerce-Oceania/static/css/main.aa9ebe07.css.map",
-    "main.537ae8d8.js.map": "/Ecommerce-Oceania/static/js/main.537ae8d8.js.map",
+    "main.2da2dd70.css.map": "/Ecommerce-Oceania/static/css/main.2da2dd70.css.map",
+    "main.af837cc9.js.map": "/Ecommerce-Oceania/static/js/main.af837cc9.js.map",
     "787.3148a24c.chunk.js.map": "/Ecommerce-Oceania/static/js/787.3148a24c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa9ebe07.css",
-    "static/js/main.537ae8d8.js"
+    "static/css/main.2da2dd70.css",
+    "static/js/main.af837cc9.js"
   ]
 }
